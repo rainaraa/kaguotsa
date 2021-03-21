@@ -1,4 +1,70 @@
 body {
-    background-color: #5E5E5E;
-    color: #fff
+	font-family: "Faune", sans serif;
+	font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 140px;
+
+    background-image: url("moon.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;	color: #052837;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: none;
+    width: 100%;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 32px 0 16px;
+    height: 80px; 
+    
+    /* how to add box shadow in css--  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    
+    transition: background-color 1s, height 1s;
+  }
+
+  header nav {
+    text-align: right;
+  }
+  
+  header a {
+    margin: 0 32px 0 16px;
+  }
+
+  a {
+    font-size: 24px;
+    color: #052837;
+    text-decoration: none;
+    color: #E7EEE9;
+  }
+
+  a:hover {
+    color: #0015E0;
+  }
+
+  h1 {
+	font-size: 32px;
+	font-weight: 900;
+    font-style: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #E7EEE9;
+
+}
+
+div.island {
+    position: relative;
+    width: 60px;
+    padding-top: 12px;
+  }

@@ -1,5 +1,31 @@
+@font-face {
+    font-family: 'Faune-Display_Black';
+    src: url('Faune-Display_Black.woff2'), url('Faune-Display_Black.woff');
+}
+
+@font-face {
+    font-family: 'Faune-Display_Bold_Italic';
+    src: url('Faune-Display_Bold_Italic.woff2'), url('Faune-Display_Bold_Italic.woff');
+}
+
+@font-face {
+    font-family: 'Faune-Display_Thin';
+    src: url('Faune-Display_Thin.woff2'), url('Faune-Display_Thin.woff');
+}
+}
+
+@font-face {
+    font-family: 'Faune-Text_Regular';
+    src: url('Faune-Text_Regular.woff2'), url('Faune-Text_Regular.woff');
+}
+
+@font-face {
+    font-family: 'Faune-Text_Italic';
+    src: url('Faune-Text_Italic.woff2'), url('Faune-Text_Italic.woff');
+}
+
 body {
-	font-family: "Faune", sans serif;
+	font-family: "Faune-Text_Regular", sans serif;
 	font-size: 24px;
     font-weight: 300;
     line-height: 1.5;
@@ -14,6 +40,7 @@ body {
 }
 
 header {
+    font-family: 'Faune-Display_Black';
     position: fixed;
     top: 0;
     left: 0;
@@ -43,6 +70,7 @@ header {
   }
 
   a {
+    font-family: 'Faune-Display_Thin';
     font-size: 24px;
     color: #052837;
     text-decoration: none;
